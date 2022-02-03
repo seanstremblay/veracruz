@@ -1,0 +1,222 @@
+/* Developer note: This is the first website I have ever developed, so I can imagine some of the code may be organized in a particularly frustrating way. If you have trouble, it's probably me, not you.*/
+
+html{
+    height: 100%;
+}
+
+body{
+    /* background-image: url(img/fancy-fish.jpg); */
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.menu-body{
+    background-image: none;
+    background-color: black;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    background-color: black;
+}
+
+header img{
+    height: 100px;
+}
+
+nav{
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    font-family: 'Bahnschrift';
+    font-size: large;
+    transition-duration: 0.4s;
+}
+
+nav a:hover{
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+main{   
+    background-image: none;
+    background-color: black;
+    text-align: center;
+    font-family: 'Bahnschrift';
+    color: whitesmoke;
+}
+
+.carousel{
+    width: 100%;
+}
+
+.map{
+    float: left;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+.facebook{
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+.menu-1{
+    width: 900px;
+}
+
+.menu-2{
+    width: 900px;
+}
+
+.red-line{
+    background-color: red;
+    width: 400px;
+    height: 3px;
+    margin-left: 654px;
+}
+
+.phone-number{
+color: whitesmoke;
+text-decoration: none;
+}
+
+.menu{
+    margin-top: 10px;
+}
+
+.menu-page{
+    width: 700px;
+}
+
+/*----------- CAROUSEL SLIDE ANIMATION ----------*/
+
+/* @-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;} 
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+
+/* ----------- CAROUSEL ELEMENTS ----------- */
+/* .slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1800px;
+    /* margin-left: 360px; 
+    margin-top: 20px; 
+} */
+
+/* .slide-images{
+    width: 5400px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1800px;
+    position: relative;
+    float: left;
+}
+
+.fancy-fish-pic{
+    width: 1800px;
+}
+
+.ct2{
+    width: 1800px;
+}
+
+.ct3{
+    width: 1800px;
+} */
+/* ------------- END CAROUSEL ELEMENTS ---------- */
+
+.specials-container{
+    height: 600px;
+    width: auto;
+    background-color: black;
+}
+
+.drink-specials-container{
+    width: 500px;
+    margin-left: 60px;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+    font-size: large;
+}
+
+.drink-specials-container h1{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.store-info-container{
+    height: 540px;
+    width: auto;
+}
+
+.home-store-info-container{
+    height: 540px;
+    width: auto;
+    background-color: white;
+}
+
+.home-store-info-subcontainer{
+    float: right;
+    padding-top: 150px;
+    margin-right: 100px;
+    color: black;
+    font-size: large;
+} 
+
+.home-store-info-subcontainer h1{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+footer{
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    font-family: 'Bahnschrift';
+    font-size: medium;  
